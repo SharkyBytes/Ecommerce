@@ -2,14 +2,12 @@
 Closes #
 
 
-### 📝 Description
+## 📝 Description
 
 <!-- A clear and concise description of what this pull request does. -->
 <!-- Include any context or background information if necessary. -->
 
----
-
-### 🔧 Changes Made
+## 🔧 Changes Made
 
 <!-- List the changes you made in this pull request. -->
 <!-- For example:
@@ -18,21 +16,16 @@ Closes #
 - Updated documentation for API endpoints.
 -->
 
----
-
-### 📷 Screenshots or Visual Changes (if applicable)
+## 📷 Screenshots or Visual Changes (if applicable)
 
 <!-- Attach screenshots or GIFs to show visual changes, if any. -->
 <!-- Drag and drop screenshots here or provide a description of visual updates. -->
 
----
-
-### 🤝 Collaboration
+## 🤝 Collaboration
 
 <!-- If you collaborated with someone on this pull request, mention their GitHub username or name here. -->
 Collaborated with: `@username` (optional)
 
----
 
 ### ✅ Checklist
 
