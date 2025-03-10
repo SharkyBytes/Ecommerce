@@ -4,17 +4,42 @@ Closes #
 <!-- What does this PR achieve? [feature|hotfix|fix|refactor] -->
 
 
-### Technical
-<!-- What should be noted about the implementation? -->
+### 📝 Description
 
-### Testing
-<!-- Steps for reviewer to reproduce/verify what this PR does/fixes. -->
+<!-- A clear and concise description of what this pull request does. -->
+<!-- Include any context or background information if necessary. -->
 
-### Screenshot
-<!-- If this PR touches UI, please post evidence (screenshots) of it behaving correctly. -->
+---
 
-### Stakeholders
-<!-- @ tag the lead (as labeled on the issue) and other stakeholders -->
+### 🔧 Changes Made
 
+<!-- List the changes you made in this pull request. -->
+<!-- For example:
+- Fixed a bug in the login flow.
+- Added a new feature for user profile customization.
+- Updated documentation for API endpoints.
+-->
 
-<!-- Attribution Disclaimer: By proposing this pull request, I affirm to have made a best-effort and exercised my discretion to make sure relevant sections of this code which substantially leverage code suggestions, code generation, or code snippets from sources (e.g. Stack Overflow, GitHub) have been annotated with basic attribution so reviewers & contributors may have confidence and access to the correct context to evaluate and use this code. -->
+---
+
+### 📷 Screenshots or Visual Changes (if applicable)
+
+<!-- Attach screenshots or GIFs to show visual changes, if any. -->
+<!-- Drag and drop screenshots here or provide a description of visual updates. -->
+
+---
+
+### 🤝 Collaboration
+
+<!-- If you collaborated with someone on this pull request, mention their GitHub username or name here. -->
+Collaborated with: `@username` (optional)
+
+---
+
+### ✅ Checklist
+
+- [ ] I have read the contributing guidelines.
+- [ ] I have added tests that prove my fix is effective or that my feature works.
+- [ ] I have added necessary documentation (if applicable).
+- [ ] Any dependent changes have been merged and published in downstream modules.
+
