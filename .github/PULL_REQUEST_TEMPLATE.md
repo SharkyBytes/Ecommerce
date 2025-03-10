@@ -1,8 +1,6 @@
 <!-- What issue does this PR close? -->
 Closes #
 
-<!-- What does this PR achieve? [feature|hotfix|fix|refactor] -->
-
 
 ### 📝 Description
 
