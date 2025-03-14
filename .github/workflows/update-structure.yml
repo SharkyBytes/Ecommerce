@@ -6,27 +6,24 @@ on:
 
 jobs:
   update-structure:
-    if: github.event.pull_request.merged
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.merge_commit_sha }}
+          fetch-depth: 0
 
-      - name: Update project structure
-        run: npm run update-structure
+      - name: Generate project structure file
+        run: tree -a -I 'node_modules' -f > project_structure.txt
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update project structure (auto)"
           branch: main
-          skip_fetch: true
-          skip_checkout: true
           commit_user_name: "CI Bot"
           commit_author: "ci-bot@example.com"
