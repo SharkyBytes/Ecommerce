@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "update-structure": "node generateps.js"
   },
   "keywords": [],
   "author": "Techinfoyt",
