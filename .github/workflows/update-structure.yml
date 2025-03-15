@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
 
       - name: Generate project structure file
-        run: tree -a -f > project_structure.txt
+        run: tree -a -I 'node_modules|.git' -f > project_structure.txt
      
 
       - name: Commit and push changes
