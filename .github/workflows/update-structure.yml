@@ -26,4 +26,5 @@ jobs:
           commit_message: "Update project structure (auto)"
           branch: main
           commit_user_name: "CI Bot"
-          commit_author: "ci-bot@example.com"
+          commit_user_email: "ci-bot@example.com"
+          commit_author: "CI Bot <ci-bot@example.com>"
