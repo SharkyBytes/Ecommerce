@@ -32,21 +32,23 @@
 │   │       └── ./.git/logs/refs/remotes
 │   │           └── ./.git/logs/refs/remotes/origin
 │   │               ├── ./.git/logs/refs/remotes/origin/HEAD
+│   │               ├── ./.git/logs/refs/remotes/origin/SharkyBytes-patch-1
 │   │               ├── ./.git/logs/refs/remotes/origin/main
 │   │               ├── ./.git/logs/refs/remotes/origin/test-structure-update
 │   │               └── ./.git/logs/refs/remotes/origin/test-structure-update-4
 │   ├── ./.git/objects
 │   │   ├── ./.git/objects/info
 │   │   └── ./.git/objects/pack
-│   │       ├── ./.git/objects/pack/pack-c7c1b8465353b46bf16dc96a4f62b25888ea5d3c.idx
-│   │       ├── ./.git/objects/pack/pack-c7c1b8465353b46bf16dc96a4f62b25888ea5d3c.pack
-│   │       └── ./.git/objects/pack/pack-c7c1b8465353b46bf16dc96a4f62b25888ea5d3c.rev
+│   │       ├── ./.git/objects/pack/pack-0cfe7582dbbac7a3364b4fe9492bff7312816f20.idx
+│   │       ├── ./.git/objects/pack/pack-0cfe7582dbbac7a3364b4fe9492bff7312816f20.pack
+│   │       └── ./.git/objects/pack/pack-0cfe7582dbbac7a3364b4fe9492bff7312816f20.rev
 │   └── ./.git/refs
 │       ├── ./.git/refs/heads
 │       │   └── ./.git/refs/heads/main
 │       ├── ./.git/refs/remotes
 │       │   └── ./.git/refs/remotes/origin
 │       │       ├── ./.git/refs/remotes/origin/HEAD
+│       │       ├── ./.git/refs/remotes/origin/SharkyBytes-patch-1
 │       │       ├── ./.git/refs/remotes/origin/main
 │       │       ├── ./.git/refs/remotes/origin/test-structure-update
 │       │       └── ./.git/refs/remotes/origin/test-structure-update-4
@@ -121,6 +123,8 @@
 │   └── ./config/db.js
 ├── ./controllers
 │   └── ./controllers/authController.js
+├── ./garv
+│   └── ./garv/garv.txt.txt
 ├── ./generateps.js
 ├── ./hello.txt
 ├── ./helpers
@@ -137,4 +141,4 @@
 │   └── ./routes/authRoute.js
 └── ./server.js
 
-33 directories, 105 files
+34 directories, 108 files
