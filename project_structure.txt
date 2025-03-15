@@ -1,62 +1,5 @@
 .
 ├── ./.env
-├── ./.git
-│   ├── ./.git/FETCH_HEAD
-│   ├── ./.git/HEAD
-│   ├── ./.git/config
-│   ├── ./.git/config.worktree
-│   ├── ./.git/description
-│   ├── ./.git/hooks
-│   │   ├── ./.git/hooks/applypatch-msg.sample
-│   │   ├── ./.git/hooks/commit-msg.sample
-│   │   ├── ./.git/hooks/fsmonitor-watchman.sample
-│   │   ├── ./.git/hooks/post-update.sample
-│   │   ├── ./.git/hooks/pre-applypatch.sample
-│   │   ├── ./.git/hooks/pre-commit.sample
-│   │   ├── ./.git/hooks/pre-merge-commit.sample
-│   │   ├── ./.git/hooks/pre-push.sample
-│   │   ├── ./.git/hooks/pre-rebase.sample
-│   │   ├── ./.git/hooks/pre-receive.sample
-│   │   ├── ./.git/hooks/prepare-commit-msg.sample
-│   │   ├── ./.git/hooks/push-to-checkout.sample
-│   │   ├── ./.git/hooks/sendemail-validate.sample
-│   │   └── ./.git/hooks/update.sample
-│   ├── ./.git/index
-│   ├── ./.git/info
-│   │   └── ./.git/info/exclude
-│   ├── ./.git/logs
-│   │   ├── ./.git/logs/HEAD
-│   │   └── ./.git/logs/refs
-│   │       ├── ./.git/logs/refs/heads
-│   │       │   └── ./.git/logs/refs/heads/main
-│   │       └── ./.git/logs/refs/remotes
-│   │           └── ./.git/logs/refs/remotes/origin
-│   │               ├── ./.git/logs/refs/remotes/origin/HEAD
-│   │               ├── ./.git/logs/refs/remotes/origin/SharkyBytes-patch-1
-│   │               ├── ./.git/logs/refs/remotes/origin/SharkyBytes-patch-2
-│   │               ├── ./.git/logs/refs/remotes/origin/SharkyBytes-patch-3
-│   │               ├── ./.git/logs/refs/remotes/origin/main
-│   │               ├── ./.git/logs/refs/remotes/origin/test-structure-update
-│   │               └── ./.git/logs/refs/remotes/origin/test-structure-update-4
-│   ├── ./.git/objects
-│   │   ├── ./.git/objects/info
-│   │   └── ./.git/objects/pack
-│   │       ├── ./.git/objects/pack/pack-3e3d8d7ecda6ed2b0473536dbe1e66dc34ddb806.idx
-│   │       ├── ./.git/objects/pack/pack-3e3d8d7ecda6ed2b0473536dbe1e66dc34ddb806.pack
-│   │       └── ./.git/objects/pack/pack-3e3d8d7ecda6ed2b0473536dbe1e66dc34ddb806.rev
-│   └── ./.git/refs
-│       ├── ./.git/refs/heads
-│       │   └── ./.git/refs/heads/main
-│       ├── ./.git/refs/remotes
-│       │   └── ./.git/refs/remotes/origin
-│       │       ├── ./.git/refs/remotes/origin/HEAD
-│       │       ├── ./.git/refs/remotes/origin/SharkyBytes-patch-1
-│       │       ├── ./.git/refs/remotes/origin/SharkyBytes-patch-2
-│       │       ├── ./.git/refs/remotes/origin/SharkyBytes-patch-3
-│       │       ├── ./.git/refs/remotes/origin/main
-│       │       ├── ./.git/refs/remotes/origin/test-structure-update
-│       │       └── ./.git/refs/remotes/origin/test-structure-update-4
-│       └── ./.git/refs/tags
 ├── ./.github
 │   ├── ./.github/ISSUE_TEMPLATE
 │   │   ├── ./.github/ISSUE_TEMPLATE/bug.yml
@@ -145,4 +88,4 @@
 │   └── ./routes/authRoute.js
 └── ./server.js
 
-34 directories, 112 files
+18 directories, 71 files
