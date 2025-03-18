@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
         with:  
           fetch-depth: 0
-
+      
       - name: Generate project structure file
         run: tree -a -I 'node_modules|.git' -f > project_structure.txt
      
