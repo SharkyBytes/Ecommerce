@@ -8,7 +8,7 @@ function generateFolderStructure(dirPath, prefix = "") {
   const entries = fs.readdirSync(dirPath, { withFileTypes: true });
   let structure = "";
 
-  entries.forEach((entry, index) => {      
+  entries.forEach((entry, index) => {                  
     const isLast = index === entries.length - 1;
     const connector = isLast ? "└── " : "├── ";
     const entryPath = path.join(dirPath, entry.name);
